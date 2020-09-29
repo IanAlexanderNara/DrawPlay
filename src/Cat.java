@@ -3,9 +3,9 @@ import java.awt.*;
 import java.awt.geom.*;
 
 public class Cat {
-	// drawing constants are private - noone needs to know what we're doing
+	// drawing constants are private - none needs to know what we're doing
 	// pick a head dimension
-	private static final int HEAD_DIMENSION = 1000;
+	private static final int HEAD_DIMENSION = 50000;
 	// eyes will be about 1/4 from top of head and 1/4 from left
 	private static final int EYE_Y = HEAD_DIMENSION/4;
 	private static final int EYE_X = HEAD_DIMENSION/4;
@@ -14,7 +14,7 @@ public class Cat {
 	private static final int EYE_HEIGHT = 200;
 	private static final int EYE_WIDTH = 100;
 	// pick mouth height, width is based on head dimension
-	private static final int MOUTH_HEIGHT = 10;
+	private static final int MOUTH_HEIGHT = 20;
 	private static final int MOUTH_WIDTH = HEAD_DIMENSION/4;
 	// mouth starts about 40% from left edge of head
 	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
